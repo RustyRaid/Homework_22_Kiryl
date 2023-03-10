@@ -1,0 +1,392 @@
+/* Header */
+
+.navbar-dark .navbar-brand {
+    font-family: 'Bangers';
+    line-height: 1;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(198, 16, 23);
+}
+
+.navbar-dark form input[type="search"]{
+    background: rgb(65, 65, 65);
+    border: 1px solid transparent;
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.navbar-dark form input[type="search"]:hover{
+    color: rgb(255, 255, 255);
+}
+
+.btn-success{
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(237, 28, 36);
+    border-color: rgb(237, 28, 36);
+}
+
+.btn-success:hover{
+    background-color: rgb(198, 16, 23);
+    border-color: rgb(198, 16, 23);
+}
+
+/* Main View */
+
+#nova{
+    width: 100%;
+    width: auto;
+    height: 100vh;
+    background-image: url(../images/super-nova.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#nova:before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nova .container{
+    position: relative;
+    padding-top: 75px;
+}
+
+#nova h1{
+    margin: 0;
+    font-family: 'Lexend';
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#nova h2{
+    margin: 10px 0 0 0;
+    font-family: 'Lexend';
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#nova .icon-box .fa-brands:before {
+    padding: 0;
+}
+
+#nova .icon-box i {
+    color: rgb(255, 255, 255);
+}
+
+#nova .icon-box h3{
+    margin: 10px 0 0 0;
+    font-family: 'Lexend';
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#nova .icon-box h3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#nova .icon-box h3 a:hover{
+    color: rgb(198, 16, 23);
+}
+
+.icon-box{
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+}
+
+.icon-box:hover{
+    border-color: rgb(198, 16, 23);
+}
+
+/* About */
+
+.about{
+    padding: 25px 0;
+}
+
+.about h3{
+    margin: 0 0 10px 0;
+    font-family: 'Lexend';
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about p{
+    font-family: 'Lexend';
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.about ul li{
+    list-style-type: none;
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+/* Carousel */
+
+.my-carousel{
+    padding: 0;
+}
+
+.my-carousel .carousel-item{
+    max-height: 800px;
+}
+
+.my-carousel .carousel-item img{
+    object-fit: cover;
+}
+
+
+/* Contact */
+
+.contact{
+    padding: 25px 0;
+}
+
+.contact .info .info-icon{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact .info p{
+    padding: 0 0 0 60px;
+    font-size: 14px;
+}
+
+.contact .description textarea{
+    resize: none;
+}
+
+.contact .description button[type="button"]{
+    background-color: rgb(237, 28, 36);
+    border-color: rgb(237, 28, 36);
+    color:rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contact .description button[type="button"]:hover{
+    background-color: rgb(198, 16, 23);
+    border-color: rgb(198, 16, 23);
+}
+
+/* Footer */
+
+.footer-top{
+    background: rgb(18, 18, 18);
+    color:rgb(255, 255, 255);
+    padding: 40px 0;
+}
+
+.footer-top .footer-info{
+    margin-bottom: 3px;
+}
+
+.footer-top .footer-info a{
+    text-decoration: none;
+}
+
+.footer-top .footer-info a h3{
+    font-family: 'Bangers';
+    line-height: 1;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin:0 0 20px 0;
+    padding: 2px 0 2px 0;
+    text-transform: uppercase;
+}
+
+.footer-top .social-links ul{
+    padding-left: 0;
+}
+
+.footer-top .social-links ul li{
+    margin:0 0 10px 0;
+    list-style-type: none;
+}
+
+.footer-top .social-links ul li a{
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-top .footer-useful h4{
+    font-family: 'Lexend';
+    font-size: 24px;
+    margin:0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-top .footer-useful ul{
+    padding-left: 0;
+}
+
+.footer-top .footer-useful ul li{
+    margin:0 0 10px 0;
+    list-style-type: none;
+}
+
+.footer-top .footer-useful ul li a{
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-top .footer-newsletter h4{
+    font-family: 'Lexend';
+    font-size: 24px;
+    margin:0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-top .footer-newsletter p{
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+    padding-bottom: 45px;
+}
+
+.footer-top .footer-newsletter p a{
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+.footer-top .footer-newsletter input[type="email"]{
+    background: #414141;
+    border: 1px solid transparent;
+    font-family: 'Lexend';
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.footer-top .footer-newsletter input[type="email"]:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footer-top .footer-newsletter button[type="button"]{
+    background: rgb(237, 28, 36);
+    color:rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-family: 'Lexend';
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-top .footer-newsletter button[type="button"]:hover{
+    background-color: rgb(198, 16, 23);
+    border-color: rgb(198, 16, 23);
+}
+
+.footer-top .footer-newsletter button[type="submit"]{
+    background: rgb(237, 28, 36);
+    color:rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-family: 'Lexend';
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-top .footer-newsletter button[type="submit"]:hover{
+    background-color: rgb(198, 16, 23);
+    border-color: rgb(198, 16, 23);
+}
+
+
+
+
+
+
+
+
+
